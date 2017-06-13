@@ -20,21 +20,3 @@ include_once 'crud.class.php'; ?>
 $crud = new crud();
 
 $crud->add();
-
-/*
-if (isset($_POST['todo'])){
-
-$sql = "INSERT INTO todo (todo) 
-VALUES (:todo);";
-$stmt = $conn->prepare($sql);
-
-$stmt->bindParam(':todo',$todo);
-
-$todo = $_POST['todo'];
-
-
-$stmt->execute();
-
-echo "<br>New record created successfully";
-}*/
-?>

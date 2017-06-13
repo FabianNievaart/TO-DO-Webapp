@@ -84,7 +84,7 @@ foreach ($result as $v) {
 echo "<tr>
         <td style='width:150px;border:1px solid black;'>".$v['id']."</td>
         <td style='width:150px;border:1px solid black;'>".$v['todo']."</td>
-        <td style='width:150px;border:1px solid black;'><a href='delete.php'>Delete</a></td>
+        <td style='width:150px;border:1px solid black;'><a href='delete.php?id=".$v['id']."'>Delete</a></td>
       </tr>";
 }
 echo "</tbody>
