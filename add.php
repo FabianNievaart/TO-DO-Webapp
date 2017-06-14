@@ -1,5 +1,6 @@
 <?php include 'header.php';
 include_once 'crud.class.php'; ?>
+
 <body class="body">
 
 <form action="add.php" method="post">
@@ -13,7 +14,6 @@ include_once 'crud.class.php'; ?>
 </body>
 
 </html>
-
 
 <?php
 

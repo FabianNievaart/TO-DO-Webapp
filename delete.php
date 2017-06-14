@@ -1,22 +1,16 @@
 <?php include 'header.php';
 include_once 'crud.class.php'; ?>
-    <body class="body">
 
-    <form action="delete.php" method="post">
-        Id of the item to delete:<br>
-        <input required type="text" name="id"><br>
-        <input type="submit" value="Submit">
-    </form>
+<body class="body">
 
-    <a href="index.php"><button>Back to table</button></a>
+<a href="index.php"><button>Back to table</button></a>
 
-    </body>
+</body>
 
-    </html>
-
+</html>
 
 <?php
 
 $crud = new crud();
 
-$crud->delete($v['id']);
+$crud->delete($_GET['id']);
